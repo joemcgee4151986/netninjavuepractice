@@ -2,6 +2,7 @@
   <div id="app">
    <product-list-one> </product-list-one>
    <product-list-two> </product-list-two>
+   
   </div>
 </template>
 
@@ -12,6 +13,12 @@ export default {
   name: 'App',
   data() {
     return {
+      products: [
+        {name: 'apples', price: 35},
+        {name: 'bananas', price: 50},
+        {name: 'cherries', price:100}
+      ]
+
       
     }
   }
