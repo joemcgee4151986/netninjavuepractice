@@ -17,6 +17,7 @@ export default {
         {name: 'apples', price: 35},
         {name: 'bananas', price: 50},
         {name: 'cherries', price:100}
+        {name: 'oranges', price:120}
       ]
 
       
