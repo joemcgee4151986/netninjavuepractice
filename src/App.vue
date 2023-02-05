@@ -1,22 +1,28 @@
 <template>
   <div id="app">
-   <product-list-one> </product-list-one>
-   <product-list-two> </product-list-two>
+    <productlistone> </productlistone>
+    <productlisttwo> </productlisttwo>
    
   </div>
 </template>
 
 <script>
-
+import productlistone from "./components/productlistone.vue";
+import productlisttwo from "./components/productlisttwo.vue";
 
 export default {
-  name: 'App',
+  name:'app',
+components:{
+  'productlistone': productlistone,
+  'productlisttwo': productlisttwo
+},
+
   data() {
     return {
       products: [
         {name: 'apples', price: 35},
         {name: 'bananas', price: 50},
-        {name: 'cherries', price:100}
+        {name: 'cherries', price:100},
         {name: 'oranges', price:120}
       ]
 
