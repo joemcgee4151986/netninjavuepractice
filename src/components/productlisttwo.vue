@@ -1,14 +1,11 @@
 <template>
-    <div id="productlisttwo">
-        <h1>Product Listone</h1>
-        <ul>
-
-      
-<li v-for=""></li>
-</ul>
-     
-    </div>
-  </template>
+  <div id="productlisttwo">
+    <h1>Product Listone</h1>
+    <ul>      
+<li v-for="">   </li>
+    </ul>
+  </div>
+</template>
   
   <script>
   
